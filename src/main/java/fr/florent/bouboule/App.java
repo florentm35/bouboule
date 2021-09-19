@@ -13,8 +13,8 @@ public class App {
         LwjglManager.init();
 
         Window window = new Window(WindowPropertyBuilder.builder()
-                .width(1800)
-                .height(1000)
+                .width(1000)
+                .height(800)
                 .title("Test")
                 .build());
 
